@@ -1,0 +1,367 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100); /*100 = Thin ; 300 = Light e 400 = Normal*/
+
+*{
+    border: 0px;
+    box-shadow: 0px;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	}
+
+bgbranco{background-color:#ffffff;}
+bgpreto{background-color:#000000;}
+bgazul{background-color:#5597d7;} 
+bgcinza{background-color:#f4f4f4;}
+verdemusgo{background-color:#7a974a;}
+bgamarelo{background-color:#ffdc73;}
+
+/* css nativo (tema) do Bootstrap*/ 
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+.topo{
+    background-color: #94733f;
+    height: 10px;
+}
+
+.tituloprincipal{
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-right: 250px;
+    font-weight: 300;
+    float: left;
+}
+
+.iconeprincipal{
+    float: left;
+    padding-top: 14px;
+    padding-right: 10px;
+}
+
+.menu{
+    width: 100%;
+    background: #55271e;   
+}
+
+.navbar-default{
+    background: #55271e;
+    border-color: #55271e;
+    height: 70px;
+    box-shadow: none;  
+    letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a{
+    margin-top: 9px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    -webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    background-color: #94733f;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.imgprodutos{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 1000px;
+    padding: 25px;
+}
+
+.legendaprodutos{
+    font-size: 20px;
+    color: #55271e;
+    padding-bottom: 20px;
+}
+
+.navbar-nav{
+/*    margin-top: 10px;
+    padding-left: 16px;*/
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.col-sm-1{
+    width: 25%;
+}
+
+.caixasinfos{
+    background-color: #5597d7; color: #ffffff; font-size: 16px; text-align: justify; padding: 20px;
+}
+
+.quemsomos{
+}
+
+.textoquemsomos{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    padding: px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.imgfrenteceja{
+    display: block;
+    margin: auto;
+}
+
+.tituloquemsomos{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.btn-info{
+    background: #55271e;
+    border: 0;
+    display: block;
+    margin: auto;
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 20px;
+    -webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.btn-info:hover{
+    background: #4b4b4b;
+    border: 0;
+    display: block;
+    margin: auto;
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 20px;
+    -webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+.tituloensino{
+    font-weight: 300;
+    font-size: 35px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.textoensino{
+    clear: both;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Roboto100",sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin: 0;
+}
+
+.divensinoinfantil{
+    background-color:#5597d7;
+    width: 100%;
+}
+
+.containerensinoinfantil{
+    background-color:#5597d7;
+}
+
+.divensinofundamental{
+    background-color:#1D32A3;
+    width: 100%;
+}
+
+.containerensinofundamental{
+    background-color:#1D32A3;
+}
+
+.divensinomedio{
+    background-color:#CB0000;
+    width: 100%;
+}
+
+.containerensinomedio{
+    background-color:#CB0000;
+}
+
+.divensinotecnico{
+    background-color:#6B6B6B;
+    width: 100%;
+}
+
+.containerensinotecnico{
+    background-color:#6B6B6B;
+}
+
+.divensinoinfo{
+    background-color:#f4f4f4;
+    width: 100%;
+}
+
+.containerensinoinfo{
+    background-color:#f4f4f4;
+}
+
+.textoinfo{
+    font-family: 'Roboto300', sans-serif;
+    font-size: 14px;
+    color: #6b6b6b;
+    padding-bottom: 20px;
+}
+
+.divfacebook{
+    background-color: #f4f4f4;
+    width: 350px;
+    height: 528px;
+}
+
+.tituloform{
+    font-weight: 300;
+    font-size: 40px;
+    color: #7a1335;
+    text-align: left;
+}
+
+.nomesform{
+    font-size: 16px;
+    font-family: "Roboto300",sans-serif;
+    color: #4b4b4b;
+    text-align: left;
+}
+
+.txtarea{
+    width: 95%;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 6px 12px;
+}
+
+.caixamsgform{
+    height: 100px;
+    width: 95%;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+    padding: 6px 12px;
+}
+
+.mapa1{
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.mapa2{
+    width: 100%;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.titulomapa{
+    font-weight: 300;
+    font-size: 35px;
+    /* text-align: center; */
+    color: #1d32ab;
+    margin-top: 20px;
+    /* font-weight: 200; */
+    /* text-align: right; */
+}
+
+.textomapa{
+    font-size: 16px;
+    color: #6B6B6B;
+    font-family: "Roboto100",sans-serif;
+    /* text-align: right; */
+}
+
+.mapaiframe{
+}
+
+footer{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerfooterimg{
+    padding: 10px;
+    float: left;
+}
+
+.textocontainerfooterimg{
+    padding-top: 20px;
+    float: left;
+    color: #8d8d8d;
+}
+
+.containerfootertextofernando{
+    font-family: 'Roboto100', sans-serif;
+    padding-right: 25px;
+    padding-top: 25px;
+    float: right;
+    color: #8d8d8d;
+}
